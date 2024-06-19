@@ -13,8 +13,8 @@
 name: LEDE Builder
 
 on:
-  schedule:
-    - cron: '0 16 * * 0'
+#  schedule:
+#    - cron: '0 16 * * 0'
   repository_dispatch:
   workflow_dispatch:
     inputs:
